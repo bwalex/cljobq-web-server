@@ -1,9 +1,10 @@
-(defproject cljobq-web-server "0.1.4"
+(defproject cljobq-web-server "0.1.5"
   :description "Standalone cljobq-web service"
   :url "https://github.com/bwalex/cljobq-web-server"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[cljobq-web "0.1.4"]
+  :dependencies [[cljobq-web "0.1.5"]
+                 [cljobq "0.1.5"]
                  [com.carouselapps/to-jdbc-uri "0.5.0"]
                  [http-kit "2.2.0"]
                  [io.aviso/logging "0.3.1"]
